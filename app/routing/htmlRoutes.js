@@ -5,7 +5,7 @@ var path = require("path");
 
 // Routes
 // =============================================================
-module.exports = function (app) {
+module.exports = function (app, path) {
 
     // Basic route that sends the user first to the AJAX Page
     app.get("/", function (req, res) {
