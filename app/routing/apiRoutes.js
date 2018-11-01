@@ -34,7 +34,7 @@ module.exports = function (app) {
         }
 
         // Friend with the score closest to 0 is your best friend
-        for (i = 0, i <scoresArray.length; i++) {
+        for (i = 0; i <scoresArray.length; i++) {
             if (scoresArray[i] <= scoresArray[bestFriend]) {
                 bestFriend = i;
             }

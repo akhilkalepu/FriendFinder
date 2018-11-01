@@ -20,8 +20,8 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // Router
 // =============================================================
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 
 // Listener
